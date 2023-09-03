@@ -30,10 +30,18 @@
     height: 350px;
     width: 225px;
     background-color: blue;
-    display: center;
-    justify-content: left;
+    display: left;
+    justify-content:center;
     border-radius: 20px;
     text-align: center;
+    padding: 50px;
+}
+
+.circle {
+    height: 10px;
+    width: 100%;
+    /* margin-top: 90px; */
+    margin-bottom: 130px;
 }
 
 .right {
@@ -46,16 +54,26 @@
     text-align: center;
     display: center;
     justify-items: center;
+    justify-content:center;
+    text-decoration: solid;
+}
+
+.summary {
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+    height: 45px;
 }
 
 .number {
     font-weight: 800px;
     border: 40px;
-    border-color: black;
+    background-color: black;
     text-align: center;
     border-radius: 100%;
     color: white;
     justify-content: center;
+    border-radius: 80%;
 }
 
 p {
@@ -64,68 +82,156 @@ p {
 
 }
 .reaction {
-    margin: 20px;
-    padding-left: 50px;
-    padding-top: 30px;
-    padding-bottom: 15px;
-    color: beige;
-    background: linear-gradient(red pink);
-    height: 25px;
-    /* width: 160px; */
+    margin: 0px;
+    color: red;
+    height: 35px;
+    width: 100%;
     align-items: center;
     border-radius: 5px;
     display: flex;
     text-align: center;
     align-content: center;
+    border: 2px;
+    padding: 5px;
+    background-color: brown;
+    font-size: small;
 }
 .list-1 {
     color: antiquewhite;
-}
-.memory {
-    margin: 20px;
-    padding: 15px;
-    color: beige;
-    background-color: brown;
-    height: 25px;
-    width: 160px;
-    align-items: center;
-    border-radius: 5px;
-    display: flex;
-}
-.verbal {
-    margin: 20px;
-    padding: 15px;
-    color: beige;
-    background-color: brown;
-    height: 25px;
-    width: 160px;
-    align-items: center;
-    border-radius: 5px;
-    display: flex;
-}
-.visual {
-    margin: 20px;
-    padding:15px;
-    color: beige;
-    background-color: brown;
-    height: 25px;
-    width: 160px;
-    align-items: center;
-    border-radius: 5px;
-    display: flex;
-}
-.continuee {
-    background-color: rgb(16, 14, 13);
-    margin: 20px;
-    padding: 15px;
-    align-items: center;
-    height:25px;
-    border-radius: 20px;
-    color: white;
-    width: 180px;
-}
-.text-1 {
-    color: white;
+    padding: 5px;
     text-align: center;
+}
+.reaction-1 {
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin-right: 30px;
+}
+.reaction-2 {
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
 
+.memory {
+    margin: 0px;
+    color: red;
+    height: 35px;
+    width: 100%;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    border: 2px;
+    padding: 5px;
+    background-color: brown;
+    font-size: small;
+}
+
+.list-2 {
+    color: antiquewhite;
+    padding: 5px;
+    text-align: center;
+}
+.memory-1 {
+    color: antiquewhite;
+    padding: 5px;
+    text-align: center;
+    margin-right: 30px;
+}
+.memory-2 {
+    color: antiquewhite;
+    padding: 5px;
+    text-align: center;
+}
+
+.verbal {
+    margin: 0px;
+    color: red;
+    height: 35px;
+    width: 100%;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    border: 2px;
+    padding: 5px;
+    background-color: brown;
+    font-size: small;
+}
+
+.list-3 {
+    color: antiquewhite;
+    padding: 5px;
+    text-align: center;
+}
+
+.verbal-1 {
+    color: antiquewhite;
+    padding: 5px;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.verbal-2 {
+    color: antiquewhite;
+    padding: 5px;
+    text-align: center;
+}
+
+.visual {
+    margin: 0px;
+    color: red;
+    height: 35px;
+    width: 100%;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    border: 2px;
+    padding: 5px;
+    background-color: brown;
+    font-size: small;
+}
+
+.list-4 {
+    color: antiquewhite;
+    padding: 5px;
+    text-align: center;
+}
+
+.visual-1 {
+    color: antiquewhite;
+    padding: 5px;
+    text-align: center;
+    margin-right: 45px;
+}
+
+.visual-2 {
+    color: antiquewhite;
+    padding: 5px;
+    text-align: center;
+}
+.continue{
+    /* padding: 10px; */
+    border: none;
+    background-color: rgb(45, 44, 44);
+    height: 40px;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: blue;
+    cursor: pointer;
+    transition: all;
+}
+ .continue:hover{
+    background-color: #2980b9;
+ }
+.button {
+    color: white;
+    height: 15px;
 }
