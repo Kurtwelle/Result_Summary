@@ -29,7 +29,7 @@
 .left {
     height: 350px;
     width: 225px;
-    background-color: #0b5394;
+    background: linear-gradient(to top, #322deb, #6743ff);
     display: center;
     justify-items:center;
     border-radius: 20px;
@@ -57,7 +57,7 @@
     padding: 70px;
     /* background-color: linear-gradient(to button) rgb(4, 43, 43); */
     border-radius: 100%;
-    background: linear-gradient(to right, blue, rgb(3, 3, 106));
+    background: linear-gradient(to top, rgba(72, 39, 208, 0.1), rgb(24, 0, 208));
 }
 .number {
     font-weight: 800px;
@@ -71,15 +71,17 @@
     width: 30px;
     font-family: 'Aleo', serif;
 }
+
 .of {
-    margin: 40px;
-    margin-left: -350%;
+    margin: 70px;
+    margin-left: -140%;
     margin-top: 30px;
     height: 25px;
-    width: 25px;
+    width: 70px;
     color: rgb(201, 196, 196);
     white-space: nowrap;
     font-family: 'Aleo', serif;
+    display: flex;
     /* font-weight: bold; */
 }
 
@@ -102,7 +104,6 @@
     margin: 10px;
     font-size: small;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 }
 
 .right {
@@ -162,6 +163,7 @@ p {
     color: #000000;
     padding: 5px;
     text-align: center;
+    display: flex;
 }
 
 .memory {
@@ -262,6 +264,7 @@ p {
     color: #000000;
     padding: 5px;
     text-align: center;
+    display: flex;
 }
 .continue{
     /* padding: 10px; */
@@ -277,9 +280,20 @@ p {
     transition: all;
 }
  .continue:hover{
-    background-color: #2980b9;
+    background: linear-gradient(to top, #322deb, #6743ff);
  }
 .button {
     color: white;
     height: 15px;
 }
+@media (max-width: 767px) 
+.container{
+    height: 100vh;
+    width: 100%;
+    display: columns: ;;
+    background-color: rgb(241, 155, 155);
+    align-items: center;
+    justify-content: center;
+}
+
+@-ms-viewport
