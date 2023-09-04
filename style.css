@@ -286,14 +286,3 @@ p {
     color: white;
     height: 15px;
 }
-@media (max-width: 767px) 
-.container{
-    height: 100vh;
-    width: 100%;
-    display: columns: ;;
-    background-color: rgb(241, 155, 155);
-    align-items: center;
-    justify-content: center;
-}
-
-@-ms-viewport
