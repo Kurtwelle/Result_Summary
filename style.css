@@ -24,6 +24,7 @@
     border-radius: 20px;
     color: rgb(192, 188, 188);
     display: flex;
+    box-shadow: #000000;
 }
 
 .left {
@@ -285,4 +286,7 @@ p {
 .button {
     color: white;
     height: 15px;
+}
+@media ( max-width: 500px) {
+    background: color #000;
 }
